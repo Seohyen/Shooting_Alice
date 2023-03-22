@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public float difficult = 1;
     public GameObject Text;
 
+
     public Vector2 MinPosition { get; private set; }
     public Vector2 MaxPosition { get; private set; }
     
@@ -148,4 +149,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(5f);
         }
     }
+
+  
+
 }
